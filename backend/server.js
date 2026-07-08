@@ -12,9 +12,9 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
-      "https://portfolio-awu5lstnf-aditi-bhallas-projects.vercel.app"
-    ],
+  "http://localhost:5173",
+  "https://portfolio-gi7w88gis-aditi-bhallas-projects.vercel.app"
+],
     credentials: true
   })
 );
