@@ -38,7 +38,7 @@ const projects = [
     description: 'Efficient railway booking system with visual seat selection and real-time availability.',
     tech: ['Java'],
     repoUrl: 'https://github.com/aditibh19/SmartRail',
-    liveUrl: 'https://smart-rail.vercel.app',
+    
     image: '/projects/smartrail.png',
   },
   {
