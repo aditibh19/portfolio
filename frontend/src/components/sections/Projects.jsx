@@ -167,10 +167,16 @@ export default function Projects() {
 
   useEffect(() => {
   axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/projects`)
-    .then((res) => setProjects(res.data))
-    .catch((err) => console.error("Projects API Error:", err))
+    .then((res) => {
+      console.log("Projects:", res.data);
+      setProjects(res.data);
+    })
+    .catch((err) => {
+      console.error("Projects API Error:", err);
+    })
     .finally(() => setLoading(false));
 }, []);
+
   return (
     <section id="projects" className="py-28 md:py-40">
       <div className="divider mb-28 md:mb-40" />
