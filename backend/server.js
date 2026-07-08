@@ -13,6 +13,7 @@ app.use(
   cors({
     origin: [
   "http://localhost:5173",
+   "https://portfolio-aditi-bhallas-projects.vercel.app",
   "https://portfolio-gi7w88gis-aditi-bhallas-projects.vercel.app"
 ],
     credentials: true
