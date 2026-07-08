@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; }
+  ::selection {
+    background-color: rgba(212, 168, 83, 0.2);
+    color: #F0EBE0;
+  }
+}
+
+@layer utilities {
+  .font-display { font-family: 'Cormorant Garant', serif; }
+  .divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #2E2619, transparent);
+  }
+}
